@@ -1,0 +1,103 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  width: 100vw;
+  height: 100vh;
+  color:#00c70a;
+  background: rgb(0, 0, 0);
+  position: relative;
+}
+
+
+
+.joinOuterContainer {
+display: flex;
+justify-content: center;
+text-align: center;
+height: 50vh;
+width:80vh;
+border: 1px solid #00c70a;
+border-radius: 4%;
+box-shadow: 0 0 15px 5px rgb(0, 255, 13);
+font-family: 'Alumni Sans', sans-serif;
+}
+
+.joinInnerContainer {
+width: 60%;
+justify-content: center;
+text-align: center;
+}
+
+.joinInput {
+border-radius: 5%;
+padding: 15px 15px;
+border: 1px solid #13e600;
+width: 50%;
+font-size:1vw
+}
+
+.Heading {
+color: rgb(22, 245, 1);
+justify-content: center;
+font-size: 1.8rem;
+display: flex;
+padding-bottom: 5px;
+}
+.Heading2 {
+  color: rgb(245, 1, 1);
+  justify-content: center;
+  font-size: 1.8rem;
+  display: flex;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  }
+.button {
+  color: rgb(0, 0, 0) !important;
+  text-transform: uppercase;
+  margin-top: 4%;
+  text-decoration: none;
+  background: #00c70a;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+  border: none;
+  width: 30%;
+  font-size: 15px;
+  font-weight: bold
+}
+.buttonSml {
+  color: rgb(0, 0, 0) !important;
+  text-transform: uppercase;
+  margin-top: 15%;
+  text-decoration: none;
+  background: #00c70a;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  width: 30%;
+  font-size: 15px;
+  font-weight: bold
+}
+.dsbl{ 
+  background: #a9c700;
+  pointer-events: none;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+.joinOuterContainer {
+  height: 100%;
+}
+
+.joinInnerContainer {
+  width: 90%;
+}
+
+
+}
+
+button:focus {
+outline: 0;
+}
